@@ -1,0 +1,17 @@
+{
+"version": 1,
+"author": "sweetysharon", "editor": "wokwi", "parts": [
+{ "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -4.67, "left": -114.67, "attrs": {} },
+{ "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 15.96, "left": 89.17, "attrs": {} }
+],
+"connections": [
+[ "esp:TX0", "$serialMonitor:RX", "", [] ],
+[ "esp:RX0", "$serialMonitor:TX", "", [] ], [
+"esp:VIN", "ultrasonic1:VCC", "red",
+[ "h-37.16", "v-178.79", "h200", "v173.33", "h100.67" ]
+],
+[ "esp:GND.1", "ultrasonic1:GND", "black", [ "h39.87", "v44.04", "h170" ] ],
+[ "esp:D5", "ultrasonic1:TRIG", "green", [ "h54.54", "v85.07", "h130.67" ] ],
+[ "esp:D18", "ultrasonic1:ECHO", "green", [ "h77.87", "v80.01", "h110" ] ]
+]
+}
