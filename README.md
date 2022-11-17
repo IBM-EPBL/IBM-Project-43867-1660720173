@@ -1,3 +1,11 @@
 Project – Smart Waste management System
 
 Team ID : PNT2022TMID17949
+
+Team Lead	: MADURA TV (19CS074)
+
+Member 1	: PAVITHRA B L (19CS103)
+
+Member 2	: MOAHMMED SUFAID M (19CS078)
+
+Member 3	: PAVATHARANI SHANMUGAMANI (19CS102)
